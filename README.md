@@ -1,6 +1,6 @@
 # QA 4Blue - Teste Técnico - QA Tester | Processo Seletivo
 
-![Cypress Tests](https://github.com/SEU_USERNAME/qa-4blue-e2e/workflows/Cypress%20Tests/badge.svg)
+![Cypress Tests](https://github.com/victorbarsanele/qa-4blue-e2e/workflows/Cypress%20Tests/badge.svg)
 ![Node Version](https://img.shields.io/badge/node-%3E%3D%2018.0.0-green)
 ![Cypress Version](https://img.shields.io/badge/cypress-15.11.0-0db7ed)
 ![Status](https://img.shields.io/badge/status-Test%20Automation%20Suite-success)
@@ -29,7 +29,7 @@ Este projeto é um **Web Testing Automation Suite** desenvolvido para avaliar ca
 ### Passo 1: Clonar o repositório
 
 ```bash
-git clone https://github.com/SEU_USERNAME/qa-4blue-e2e.git
+git clone https://github.com/victorbarsanele/qa-4blue-e2e.git
 cd qa-4blue-e2e
 ```
 
@@ -332,7 +332,7 @@ O projeto está configurado com **GitHub Actions**. A cada push para a branch `m
 
 ### Status do Pipeline
 
-![Build Status](https://github.com/SEU_USERNAME/qa-4blue-e2e/actions/workflows/cypress.yml/badge.svg)
+![Build Status](https://github.com/victorbarsanele/qa-4blue-e2e/actions/workflows/cypress.yml/badge.svg)
 
 ---
 
