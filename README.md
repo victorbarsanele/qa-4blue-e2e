@@ -275,6 +275,22 @@ npx cypress run --spec "cypress/e2e/signup.cy.js"
 
 ---
 
+#### 🐛 **BUG #4: Mensagem "Erro inesperado" após login bem-sucedido**
+
+| Campo                      | Descrição                                                                                                                                                                      |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Título**                 | Mensagem de erro inofensiva exibida após login bem-sucedido                                                                                                                    |
+| **Descrição**              | Após realizar login com credenciais válidas, uma mensagem "Erro inesperado" é exibida na tela, mesmo com o login sendo concluído com sucesso e o redirecionamento funcionando. |
+| **Passos para Reproduzir** | 1. Acessar página de login<br>2. Preencher email e senha válidos<br>3. Clicar em "Entrar"<br>4. Observar mensagem de erro exibida                                              |
+| **Resultado Atual**        | ❌ Mensagem "Erro inesperado" é exibida, mas não impede o funcionamento do login                                                                                               |
+| **Resultado Esperado**     | ✅ Não deve exibir nenhuma mensagem de erro quando o login for bem-sucedido                                                                                                    |
+| **Severidade**             | 🟡 BAIXA                                                                                                                                                                       |
+| **Prioridade**             | 🟡 BAIXA                                                                                                                                                                       |
+| **Afeta**                  | UX, Mensagens de Feedback                                                                                                                                                      |
+| **Observação**             | ⚠️ **Erro conhecido** - Não afeta funcionalidade; apenas visual/cosmético                                                                                                      |
+
+---
+
 ### Pergunta 3: Sugestões de Melhorias para as Telas
 
 #### 🎨 **Melhorias na Experiência do Usuário (UX)**
