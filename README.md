@@ -316,13 +316,14 @@ npx cypress run --spec "cypress/e2e/signup.cy.js"
 
 #### 📱 **Melhorias Técnicas**
 
-| Aspecto                  | Problema                                        | Sugestão                                              |
-| ------------------------ | ----------------------------------------------- | ----------------------------------------------------- |
-| **Testes Automatizados** | Alguns fluxos críticos podem não estar cobertos | Aumentar cobertura para 80%+; adicionar testes de API |
-| **Tratamento de Erros**  | Mensagens de erro não padronizadas              | Criar um componente de erro reutilizável no frontend  |
-| **Logging**              | Sem registro de eventos de autenticação         | Implementar logging server-side para auditoria        |
-| **CORS**                 | Se houver consumo de APIs externas              | Configurar CORS adequadamente                         |
-| **Performance**          | Possível lentidão nas validações                | Implementar debounce nas validações em tempo real     |
+| Aspecto                  | Problema                                        | Sugestão                                                                                                           |
+| ------------------------ | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| **Seletores de Teste**   | Seletores frágeis acoplados a CSS/texto         | Adicionar atributos `data-test` nos elementos chave do HTML para tornar os testes mais estáveis e fáceis de manter |
+| **Testes Automatizados** | Alguns fluxos críticos podem não estar cobertos | Aumentar cobertura para 80%+; adicionar testes de API                                                              |
+| **Tratamento de Erros**  | Mensagens de erro não padronizadas              | Criar um componente de erro reutilizável no frontend                                                               |
+| **Logging**              | Sem registro de eventos de autenticação         | Implementar logging server-side para auditoria                                                                     |
+| **CORS**                 | Se houver consumo de APIs externas              | Configurar CORS adequadamente                                                                                      |
+| **Performance**          | Possível lentidão nas validações                | Implementar debounce nas validações em tempo real                                                                  |
 
 #### 📊 **Melhorias na Forma & Design**
 
